@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Technical Documentation</header>
+      <a href="#HTML" class="nav-link">HTML</a>
+      <a href="#CSS" class="nav-link">CSS</a>
+      <a href="#JavaScript" class="nav-link">JavaScript</a>
+      <a href="#APIs" class="nav-link">APIs</a>
+      <a href="#Best_Practices" class="nav-link">Best Practices</a>
+      <a href="#Version_Control" class="nav-link">Version Control</a>
+      <a href="#Performance_Optimization" class="nav-link"
+        >Performance Optimization</a
+      >
+    </nav>
+    <main id="main-doc">
+      <section id="HTML" class="main-section">
+        <header>HTML</header>
+        <p>
+          HTML stands for HyperText Markup Language. It is used to create and
+          structure content on the web.
+        </p>
+        <p>
+          HTML uses a system of tags to format content. Tags include headings,
+          paragraphs, lists, links, and more.
+        </p>
+        <code>&lt;html&gt;</code>
+        <code>&lt;head&gt;</code>
+        <p>Example of HTML code:</p>
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;&lt;/head&gt;
+  &lt;body&gt;&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+      </section>
+      <section id="CSS" class="main-section">
+        <header>CSS</header>
+        <p>
+          CSS stands for Cascading Style Sheets. It is used to style and layout
+          web pages.
+        </p>
+        <p>
+          CSS can be used to change the color, font, spacing, and layout of HTML
+          elements.
+        </p>
+        <code>body { color: black; }</code>
+        <p>Example of CSS code:</p>
+        <pre><code>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}</code></pre>
+        <ul>
+          <li>Selectors</li>
+          <li>Properties</li>
+          <li>Values</li>
+        </ul>
+      </section>
+      <section id="JavaScript" class="main-section">
+        <header>JavaScript</header>
+        <p>
+          JavaScript is a programming language used to create interactive
+          effects on web pages.
+        </p>
+        <p>
+          JavaScript can manipulate HTML and CSS to update the content and style
+          of a page.
+        </p>
+        <code>document.getElementById('myElement').innerHTML = 'Hello';</code>
+        <ul>
+          <li>Variables</li>
+          <li>Functions</li>
+          <li>Events</li>
+        </ul>
+      </section>
+      <section id="APIs" class="main-section">
+        <header>APIs</header>
+        <p>
+          APIs (Application Programming Interfaces) allow different software
+          systems to communicate with each other.
+        </p>
+        <p>
+          APIs are used to fetch data from a server and display it on a web
+          page.
+        </p>
+        <code>fetch('https://api.example.com/data')</code>
+        <ul>
+          <li>REST APIs</li>
+          <li>GraphQL APIs</li>
+        </ul>
+      </section>
+      <section id="Best_Practices" class="main-section">
+        <header>Best Practices</header>
+        <p>
+          Best practices are guidelines to follow for writing clean,
+          maintainable, and efficient code.
+        </p>
+        <p>
+          They include writing comments, using meaningful variable names, and
+          following coding standards.
+        </p>
+        <code>function add(a, b) { return a + b; }</code>
+        <ul>
+          <li>Code Documentation</li>
+          <li>Code Review</li>
+          <li>Consistent Formatting</li>
+        </ul>
+      </section>
+      <section id="Version_Control" class="main-section">
+        <header>Version Control</header>
+        <p>
+          Version control systems track changes to code over time, allowing
+          developers to collaborate and maintain code effectively.
+        </p>
+        <p>Common version control systems include Git and SVN.</p>
+        <code>git init</code>
+        <code>git commit -m "Initial commit"</code>
+        <ul>
+          <li>Branches</li>
+          <li>Merging</li>
+          <li>Pull Requests</li>
+        </ul>
+      </section>
+      <section id="Performance_Optimization" class="main-section">
+        <header>Performance Optimization</header>
+        <p>
+          Performance optimization involves improving the speed and efficiency
+          of web applications.
+        </p>
+        <p>
+          Techniques include minimizing HTTP requests, optimizing images, and
+          using caching strategies.
+        </p>
+        <code>minify.js</code>
+        <code>compress images</code>
+        <ul>
+          <li>Code Minification</li>
+          <li>Image Compression</li>
+          <li>Lazy Loading</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
